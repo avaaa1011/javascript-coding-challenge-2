@@ -39,5 +39,18 @@ let employee =
  customers.push({name: "Cameron Winklevoss", email: "cwinklevoss@icloud.com", purchaseAmount: 200});//adding a new customer to the array
  console.log(customers);
 
- 
  //Task 5 - Object Methods
+ //calculating the tax amount 
+let order = 
+{
+    orderId: "99",
+    customerName: "Steve Wozniak",
+    amount: 300,
+    calculateTax: function() 
+    {
+        const taxRate = 0.10; //tax rate
+        return this.amount * taxRate;
+    }
+}
+console.log(order);
+console.log(order.calculateTax());
