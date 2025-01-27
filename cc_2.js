@@ -14,3 +14,17 @@ let average = total/scores.length; //calculating the average of all the scores
 console.log("Updated Scores: ", scores);
 console.log(total);
 console.log("Average Score: ", average);
+
+//Task 3 - Working with Objects
+// declaring multiple properties for an object
+let employee = 
+ { 
+    name : "Steve Jobs",
+    age: 52,
+    department: "Tech", 
+    isActive: true
+ };
+ console.log(employee);
+ employee.department = "Finance"; //changing the employee's department
+ console.log(employee);
+ 
