@@ -27,4 +27,13 @@ let employee =
  console.log(employee);
  employee.department = "Finance"; //changing the employee's department
  console.log(employee);
+
+ //Task 4 - Array of Objects
+ let customers = 
+ [
+    { name: "Steve Wozniak", email: "stevewoz@icloud.com", purchaseAmount: 100 },
+    { name: "Mark Zuckerburg", email: "zuckerburg@icloud.com", purchaseAmount: 125 },
+    { name: "Eduardo Severin", email: "eseverin@icloud.com", purchaseAmount: 150 }
+ ]; //customer arrays with objects
+ 
  
