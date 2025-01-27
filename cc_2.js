@@ -35,5 +35,9 @@ let employee =
     { name: "Mark Zuckerburg", email: "zuckerburg@icloud.com", purchaseAmount: 125 },
     { name: "Eduardo Severin", email: "eseverin@icloud.com", purchaseAmount: 150 }
  ]; //customer arrays with objects
+ console.log(customers);
+ customers.push({name: "Cameron Winklevoss", email: "cwinklevoss@icloud.com", purchaseAmount: 200});//adding a new customer to the array
+ console.log(customers);
+
  
- 
+ //Task 5 - Object Methods
